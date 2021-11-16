@@ -1,0 +1,68 @@
+.just {
+  justify-content: space-between; }
+
+ul {
+  align-items: center; }
+  ul li {
+    margin-right: 25px;
+    padding: 10px 0; }
+    ul li a {
+      text-decoration: none;
+      color: #888888;
+      font-size: 20px;
+      font-weight: 600; }
+    ul li .active {
+      color: #3E45ED;
+      border-bottom: solid 3px #3E45ED;
+      padding: 16px; }
+    ul li span {
+      margin-left: 12px;
+      background-color: red;
+      border-radius: 50%;
+      color: #fff;
+      padding: 5px; }
+    ul li .btn {
+      color: #888888;
+      font-size: 20px;
+      font-weight: 600; }
+
+.info {
+  background-image: url(../img/profile.png);
+  background-size: cover;
+  color: #fff;
+  padding: 0 155px; }
+  .info .top {
+    padding-top: 40px;
+    padding-bottom: 35px; }
+    .info .top .avt {
+      margin-right: 42px; }
+    .info .top p {
+      max-width: 426px; }
+  .info .bot {
+    padding: 16px 115px;
+    border-top: rgba(255, 255, 255, 0.3) solid 1px; }
+    .info .bot .flex {
+      margin-right: 80px;
+      align-items: baseline; }
+      .info .bot .flex .num {
+        margin-right: 8px;
+        font-size: 24px;
+        font-weight: 800; }
+
+.content {
+  margin: 40px 155px; }
+  .content .post {
+    margin-bottom: 30px; }
+    .content .post img {
+      padding-left: 16px; }
+    .content .post .post-content {
+      border-radius: 10px;
+      background-color: #F6F5F8;
+      padding: 33px 16px 16px 16px;
+      margin-top: -17px; }
+
+.second .col {
+  margin: 0 5px; }
+
+.third .col img {
+  margin-bottom: 30px; }
